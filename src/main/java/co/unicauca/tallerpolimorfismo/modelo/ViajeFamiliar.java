@@ -8,20 +8,20 @@ package co.unicauca.tallerpolimorfismo.modelo;
 import java.util.Date;
 
 /**
- *
- * @author juang
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public class ViajeFamiliar extends Viaje {
 
     private int familia;
     //Constructor getters and setters
-
+//Constructor de la clase viajeFamiliar
     public ViajeFamiliar(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada,int familia) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
         this.familia=familia;
     }
     
-
+//getters y setters de la  clase viajeFamiliar
     public int getFamilia() {
         return familia;
     }

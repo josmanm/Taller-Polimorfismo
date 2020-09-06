@@ -8,8 +8,8 @@ package co.unicauca.tallerpolimorfismo.modelo;
 import java.util.Date;
 
 /**
- *
- * @author juang
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public abstract class Viaje {
 
@@ -18,6 +18,7 @@ public abstract class Viaje {
     private int costo;
     private Date fechaSalida;
     private Date fechaLlegada;
+//Constructor de la clase viaje
 
     public Viaje(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
         this.origen = origen;
@@ -26,6 +27,7 @@ public abstract class Viaje {
         this.fechaSalida = fechaSalida;
         this.fechaLlegada = fechaLlegada;
     }
+//getters y setters de la  clase viaje
 
     public Date getFechaLlegada() {
         return fechaLlegada;
@@ -68,6 +70,7 @@ public abstract class Viaje {
     }
 
     public abstract String descripcion();
+//Procedimientos de la clase viaje 
 
     public String cualquierMetodo() {
         return "Cualquier método implementado en la clase base";

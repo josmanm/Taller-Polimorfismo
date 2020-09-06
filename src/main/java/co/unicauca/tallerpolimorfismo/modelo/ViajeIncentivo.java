@@ -9,17 +9,20 @@ import java.util.Date;
 
 /**
  *
- * @author juang
+ * 
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public class ViajeIncentivo extends Viaje {
 
     private String empresa;
 
+    //Constructor de la clase ViajeIncentivo
     public ViajeIncentivo(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada,String empresa) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
         this.empresa = empresa;
     }
-
+//getters y setters de la  clase ViajeIncentivo
     public String getEmpresa() {
         return empresa;
     }

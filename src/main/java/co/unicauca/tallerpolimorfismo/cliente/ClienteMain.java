@@ -19,7 +19,9 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author juang
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
+ *          
  */
 public class ClienteMain {
 

@@ -9,10 +9,12 @@ import java.util.Date;
 
 /**
  *
- * @author juang
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public class ViajeIndividual extends Viaje {
 
+    //Constructor de la clase ViajeIndividual
     public ViajeIndividual(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
     }

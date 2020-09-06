@@ -12,8 +12,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
- * @author SANTIAGO MUÑOZ
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public class ViajeTest {
     
@@ -90,7 +90,7 @@ public class ViajeTest {
         assertEquals(1250000, viaje.getCosto());
         assertEquals(new SimpleDateFormat("dd/MM/yyyy").parse("01/05/2019"), viaje.getFechaSalida());
         assertEquals(new SimpleDateFormat("dd/MM/yyyy").parse("05/05/2019"), viaje.getFechaLlegada());
-        //assertEquals(5, viaje.getFamilia());
+        assertEquals(5, viaje.getFamilia());
         assertEquals("Viaje para disfrutar con toda tu familia", viaje.descripcion());
         assertEquals("Cualquier método implementado en la clase base", viaje.cualquierMetodo());
         assertEquals("Método implementado en la clase hija viaje familiar", viaje.cualquierMetodo2());

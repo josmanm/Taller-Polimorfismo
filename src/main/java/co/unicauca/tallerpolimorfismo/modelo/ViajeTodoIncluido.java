@@ -8,11 +8,13 @@ package co.unicauca.tallerpolimorfismo.modelo;
 import java.util.Date;
 
 /**
- *
- * @author juang
+ * 
+ * @author Josman Santiago Muñoz Mera 104617012098
+ *         Juan José López Guzman 104617010731
  */
 public class ViajeTodoIncluido extends Viaje {
 
+      //Constructor de la clase ViajeTodoIncluido
     public ViajeTodoIncluido(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
     }
